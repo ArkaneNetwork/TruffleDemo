@@ -6,11 +6,12 @@
     "test": "test"
   },
   "scripts": {
-    "migrate": "npx truffle migrate --network kovan"
+    "migrate": "npx truffle migrate --network kovan --reset"
   },
   "author": "Quinten De Swaef",
   "license": "MIT",
   "dependencies": {
+    "@arkane-network/truffle-arkane-provider": "0.0.29",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
